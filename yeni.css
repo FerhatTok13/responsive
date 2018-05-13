@@ -1,0 +1,58 @@
+#container
+{
+    width: 1200px;
+    height: 1000px;
+    background-color:darkorange;
+    margin: auto;
+}
+#menu
+{
+    width: 1200px;
+    height: 100px;
+    background-color: darkorchid;
+}
+#menu ul
+{
+    list-style-type: none;
+    margin-left: 750px;
+    margin-top: 35px;
+    position: absolute;
+}
+#menu ul li
+{
+    display: inline;
+}
+#menu ul li a
+{
+    text-decoration: none;
+    margin-left: 20px;
+    color: ghostwhite;
+    border-radius: 10px;
+   transition: 1s;
+    padding: 10px;
+}
+#menu ul li a:hover
+{
+    background-color: darkorange;
+    color:darkorchid;
+}
+#down
+{
+    width: 1200px;
+    height: 200px;
+    background-color:;
+}
+.one
+{
+    width: 200px;
+    height: 200px;
+    margin-left: 133px;
+    background-color: darksalmon;
+    float: left;
+   
+}
+.one:first-child
+{
+    margin: 0;
+    padding: 0;
+}
